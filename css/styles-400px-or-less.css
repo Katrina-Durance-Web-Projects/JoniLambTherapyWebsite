@@ -1,0 +1,192 @@
+@media only screen and (max-width: 400px) {
+
+    body {
+        background-color: white;
+        display: grid;
+        grid-auto-rows: 4em max-content auto 2.5em 1fr;
+        height: 100%;
+        margin: auto;
+        padding: 0;
+    }
+
+    .title-bar {
+        padding: 10px;
+        text-align: center;
+    }
+    .company {
+        color: rgb(54, 58, 66);
+        font-size: 1.25em;
+        white-space: nowrap;
+    }
+    .name {
+        color: rgb(54, 58, 66);
+        font-size: 1em;
+        white-space: nowrap;
+    }
+
+    .option-bar {
+        align-items: center;
+        border-bottom: 1px solid darkgray;
+        border-top: 1px solid darkgray;
+        display: flex;
+        flex-wrap: wrap;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .75em;
+        justify-content: center;
+        padding: 4px;
+        white-space: nowrap;
+    }
+    .home-link {
+        color: rgb(54, 58, 66);
+        font-size: 1em;
+        padding-right: 1em;
+        text-decoration: none;
+    }
+    .home-link:hover {
+        text-decoration: underline;
+    }
+    .aboutme-link {
+        color: rgb(54, 58, 66);
+        font-size: 1em;
+        padding-right: 1em;
+        text-decoration: none;
+    }
+    .aboutme-link:hover {
+        text-decoration: underline;
+    }
+    .insurance-link {
+        color: rgb(54, 58, 66);
+        font-size: 1em;
+        padding-right: 1em;
+        text-decoration: none;
+    }
+    .insurance-link:hover {
+        text-decoration: underline;
+    }
+    .contact-link {
+        color: rgb(54, 58, 66);
+        font-size: 1em;
+        text-decoration: none;
+    }
+    .contact-link:hover {
+        text-decoration: underline;
+    }
+
+    .quote-container {
+        align-content: center;
+        background-image: url("../images/sunset-beach-small-screens.jpg");
+        background-size: cover;
+        justify-content: center;
+        padding-bottom: 4em;
+        padding-left: 3em;
+        padding-right: 3em;
+        padding-top: .5em;
+    }
+    .image-quote {
+        color: rgb(54, 58, 66);
+        font-size: .875em;
+        padding-top: .5em;
+        text-align: center;
+    }
+    .image-quote-author {
+        font-size: 10px;
+    }
+
+    .contact-bar-container {
+        border-top: 1px solid darkgray;
+        color: rgb(54, 58, 66);
+        display: flex;
+        flex-wrap: wrap;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .75em;
+        padding-bottom: 6px;
+        padding-top: 6px;
+        justify-content: center;
+    }
+    .email {
+        padding-right: .5em;
+    }
+    .instagram-link {
+        padding-left: 6px;
+    }
+    .instagram-img {
+        padding-left: 4px;
+    }
+
+    .attribution {
+        align-content: center;
+        border-top: 1px solid darkgray;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 8px;
+        justify-content: center;
+        padding: 5px;
+        text-align: center;
+    }
+    .heart {
+        display:  inline-block;
+        height: 8px;
+        width: 8px;
+    }
+    .website-attribution {
+        display:  inline-block;
+    }
+    .icon-attribution {
+        display:  inline-block;
+    }
+
+/* PAGES */
+
+/* About Me Page */
+    .about-me-page {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .joni-lamb-headshot {
+        border-radius: 25%;
+        height: auto;
+        padding-left: .5em;
+        max-width: 100%;
+        padding-right: .5em;
+        padding-top: .5em;
+    } 
+    .about-me-text {
+        color: rgb(54, 58, 66);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .75em;
+        padding-bottom: .5em;
+        padding-left: .5em;
+        padding-right: .5em;
+    }
+
+    /* Insurance and Fees Page */
+    .ins-fees-text_container {
+        justify-content: center;
+        padding: .25em;
+        width: auto;
+    }
+    .ins-fees-text {
+        color: rgb(54, 58, 66);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .75em;
+        padding-top: .5em;
+    }
+    .highlight {
+        color: red;
+    }
+
+    /* Contact Page */
+    .contact-text-container {
+        align-items: center;
+        display: grid;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: .75em;
+        grid-template-rows: 20em;
+        justify-content: center;
+    }
+    .contact-text {
+        padding: .5em;
+        text-align: center;
+    }
+
+}
